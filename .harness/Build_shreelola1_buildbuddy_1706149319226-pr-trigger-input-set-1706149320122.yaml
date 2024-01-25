@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_shreelola1_buildbuddy_1706149319226-pr-trigger-input-set
+  identifier: Build_shreelola1_buildbuddy_1706149319226prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: project
+  pipeline:
+    identifier: Build_shreelola1_buildbuddy_1706149319226
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>

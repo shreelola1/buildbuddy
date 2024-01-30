@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_shreelola1_buildbuddy_1706584841038-push-trigger-input-set
+  identifier: Build_shreelola1_buildbuddy_1706584841038pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: test12
+  pipeline:
+    identifier: Build_shreelola1_buildbuddy_1706584841038
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
